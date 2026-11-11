@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lire les kanji du JLPT N5 · Module de formation</title>
+<meta name="description" content="Module de formation à distance : lire les 105 kanji de base du japonais (JLPT N5), en 9 unités interactives H5P.">
+<style>
+@font-face{font-family:'Klee One';src:url('assets/fonts/klee-one-semibold.woff2') format('woff2');font-weight:600;font-display:swap}@font-face{font-family:'Zen Kaku Gothic New';src:url('assets/fonts/zen-kaku-gothic-new-regular.woff2') format('woff2');font-weight:400;font-display:swap}@font-face{font-family:'Zen Kaku Gothic New';src:url('assets/fonts/zen-kaku-gothic-new-bold.woff2') format('woff2');font-weight:700;font-display:swap}
+:root{--ink:#1E2229;--grey:#59606A;--line:#DADCD6;--beni:#B7282E;--bg:#FFFFFF;--soft:#F7F6F2}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Zen Kaku Gothic New',system-ui,-apple-system,'Segoe UI',sans-serif;font-size:17px;line-height:1.6}
+a{color:var(--ink)}
+a:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:4px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.saut{position:absolute;left:16px;top:-48px;background:var(--ink);color:#fff;padding:8px 14px;border-radius:6px;z-index:5}
+.saut:focus{top:12px}
+.bandeau{display:block;width:100%;height:120px;object-fit:cover}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header .wrap{padding-top:32px;padding-bottom:8px}
+.surtitre{margin:0;color:var(--beni);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:14px}
+h1{font-family:'Klee One',serif;font-weight:600;font-size:clamp(34px,6vw,52px);line-height:1.2;margin:6px 0 12px}
+h2{font-family:'Klee One',serif;font-weight:600;font-size:clamp(24px,4vw,30px);line-height:1.3;margin:48px 0 12px;color:var(--beni)}
+h3{margin:0;font-size:20px;line-height:1.3}
+.chapo{font-size:19px;max-width:62ch;margin:0 0 12px}
+p,li{max-width:72ch}
+.public{color:var(--grey);max-width:62ch}
+.etapes{padding-left:22px} .etapes li{margin:6px 0}
+.demo{background:var(--soft);border-left:6px solid var(--beni);padding:12px 16px;border-radius:6px;max-width:72ch}
+.grille{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:20px}
+.unite article{height:100%;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.unite .motif{display:block;width:100%;height:56px;object-fit:cover;border-bottom:4px solid var(--c)}
+.unite .corps{padding:14px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.num{margin:0;font-size:14px;font-weight:700;color:var(--grey);letter-spacing:.04em}
+.kanji{margin:2px 0 6px;font-family:'Klee One',serif;font-weight:600;font-size:24px;line-height:1.5;letter-spacing:.06em}
+.acts{list-style:none;padding:0;margin:auto 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.act{display:inline-block;padding:7px 14px;border:2px solid var(--ink);border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;line-height:1.3;background:#fff}
+.act:hover{background:var(--soft)}
+.act-mission{border-style:dashed}
+.eval{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:12px;margin:12px 0 0}
+.eval .act{font-size:16px;padding:10px 18px}
+.note{color:var(--grey);font-size:15px;margin-top:8px}
+footer{margin-top:56px;border-top:1px solid var(--line)}
+footer .wrap{padding-top:20px;padding-bottom:40px;color:var(--grey);font-size:15px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="saut" href="#contenu">Aller au contenu</a>
+<header>
+<img class="bandeau" src="assets/motifs/bandeau.png" alt="" width="1200" height="200">
+<div class="wrap">
+<p class="surtitre">Module de formation · Japonais débutant</p>
+<h1>Lire les kanji du JLPT N5</h1>
+<p class="chapo">Un module de formation à distance pour apprendre à <strong>lire</strong> les 105 kanji de base du japonais (niveau JLPT N5) : les reconnaître, comprendre leur sens et les lire dans les mots de tous les jours, sur des documents proches du réel.</p>
+<p class="public">Adultes francophones débutants qui lisent déjà les hiragana et les katakana. Le module se suit seul, à son rythme, sans durée imposée.</p>
+</div>
+</header>
+<main id="contenu" class="wrap">
+<h2>Comment suivre le module</h2>
+<ol class="etapes"><li><strong>Comprendre</strong> : Un livre interactif par unité : des cartes avec le son, de petites activités de vérification et des documents réels.</li><li><strong>S&#x27;entraîner</strong> : Un quiz de 12 questions tirées au hasard, à refaire autant de fois que nécessaire. Objectif : 80 %.</li><li><strong>Missions</strong> : Deux scénarios à embranchements avec ゆき (unités 4 et 9) : lire pour agir, dans une situation.</li><li><strong>Évaluation finale</strong> : « Une journée au Japon » : des scènes qui réunissent tous les kanji, puis une correction commentée.</li></ol>
+<p class="demo">Version de démonstration : les résultats ne sont pas enregistrés. Dans Moodle, le même module enregistre les tentatives et les notes de chaque apprenant.</p>
+<h2 id="unites">Les 9 unités</h2>
+<p>Avance dans l'ordre : chaque unité réutilise les kanji des précédentes.</p>
+<ul class="grille"><li class="unite" style="--c:#B7282E"><article aria-labelledby="u1"><img class="motif" src="assets/motifs/unite-1.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 1</p><h3 id="u1">Nombres et argent</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 一 二 三 四 五 六 七 八 九 十 百 千 万 円">一 二 三 四 五 六 七 八 九 十 百 千 万 円</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-01-nombres-et-argent/comprendre.html">Comprendre<span class="vh"> — Unité 1, Nombres et argent</span></a></li><li><a class="act act-quiz" href="activites/unite-01-nombres-et-argent/s-entrainer.html">S&#x27;entraîner<span class="vh"> — Unité 1, Nombres et argent</span></a></li></ul></div></article></li><li class="unite" style="--c:#165E83"><article aria-labelledby="u2"><img class="motif" src="assets/motifs/unite-2.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 2</p><h3 id="u2">Temps et calendrier</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 日 月 火 水 木 金 土 年 今 時 分 半 毎">日 月 火 水 木 金 土 年 今 時 分 半 毎</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-02-temps-et-calendrier/comprendre.html">Comprendre<span class="vh"> — Unité 2, Temps et calendrier</span></a></li><li><a class="act act-quiz" href="activites/unite-02-temps-et-calendrier/s-entrainer.html">S&#x27;entraîner<span class="vh"> — Unité 2, Temps et calendrier</span></a></li></ul></div></article></li><li class="unite" style="--c:#68BE8D"><article aria-labelledby="u3"><img class="motif" src="assets/motifs/unite-3.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 3</p><h3 id="u3">Personnes et corps</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 人 男 女 子 父 母 友 目 耳 口 手 足">人 男 女 子 父 母 友 目 耳 口 手 足</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-03-personnes-et-corps/comprendre.html">Comprendre<span class="vh"> — Unité 3, Personnes et corps</span></a></li><li><a class="act act-quiz" href="activites/unite-03-personnes-et-corps/s-entrainer.html">S&#x27;entraîner<span class="vh"> — Unité 3, Personnes et corps</span></a></li></ul></div></article></li><li class="unite" style="--c:#F8B500"><article aria-labelledby="u4"><img class="motif" src="assets/motifs/unite-4.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 4</p><h3 id="u4">Directions</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 上 下 左 右 中 外 前 後 東 西 南 北">上 下 左 右 中 外 前 後 東 西 南 北</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-04-directions/comprendre.html">Comprendre<span class="vh"> — Unité 4, Directions</span></a></li><li><a class="act act-quiz" href="activites/unite-04-directions/s-entrainer.html">S&#x27;entraîner<span class="vh"> — Unité 4, Directions</span></a></li><li><a class="act act-mission" href="activites/unite-04-directions/mission-retrouver-yuki.html">Mission : Retrouver ゆき<span class="vh"> — Unité 4, Directions</span></a></li></ul></div></article></li><li class="unite" style="--c:#00A3AF"><article aria-labelledby="u5"><img class="motif" src="assets/motifs/unite-5.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 5</p><h3 id="u5">Nature et climat</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 山 川 田 天 気 雨 花 空">山 川 田 天 気 雨 花 空</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-05-nature-et-climat/comprendre.html">Comprendre<span class="vh"> — Unité 5, Nature et climat</span></a></li><li><a class="act act-quiz" href="activites/unite-05-nature-et-climat/s-entrainer.html">S&#x27;entraîner<span class="vh"> — Unité 5, Nature et climat</span></a></li></ul></div></article></li><li class="unite" style="--c:#745399"><article aria-labelledby="u6"><img class="motif" src="assets/motifs/unite-6.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 6</p><h3 id="u6">Adjectifs</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 大 小 高 安 新 古 長 多 少 白 赤 青">大 小 高 安 新 古 長 多 少 白 赤 青</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-06-adjectifs/comprendre.html">Comprendre<span class="vh"> — Unité 6, Adjectifs</span></a></li><li><a class="act act-quiz" href="activites/unite-06-adjectifs/s-entrainer.html">S&#x27;entraîner<span class="vh"> — Unité 6, Adjectifs</span></a></li></ul></div></article></li><li class="unite" style="--c:#ED6D3D"><article aria-labelledby="u7"><img class="motif" src="assets/motifs/unite-7.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 7</p><h3 id="u7">Verbes d&#x27;action</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 行 来 帰 会 食 飲 見 聞 読 書 話 買 出 入 立 休">行 来 帰 会 食 飲 見 聞 読 書 話 買 出 入 立 休</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-07-verbes-d-action/comprendre-partie-1.html">Comprendre (1re partie)<span class="vh"> — Unité 7, Verbes d&#x27;action</span></a></li><li><a class="act act-quiz" href="activites/unite-07-verbes-d-action/s-entrainer-partie-1.html">S&#x27;entraîner (1re partie)<span class="vh"> — Unité 7, Verbes d&#x27;action</span></a></li><li><a class="act act-livre" href="activites/unite-07-verbes-d-action/comprendre-partie-2.html">Comprendre (2e partie)<span class="vh"> — Unité 7, Verbes d&#x27;action</span></a></li><li><a class="act act-quiz" href="activites/unite-07-verbes-d-action/s-entrainer-partie-2.html">S&#x27;entraîner (2e partie)<span class="vh"> — Unité 7, Verbes d&#x27;action</span></a></li></ul></div></article></li><li class="unite" style="--c:#17184B"><article aria-labelledby="u8"><img class="motif" src="assets/motifs/unite-8.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 8</p><h3 id="u8">École et savoir</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 学 校 先 生 語 本 文 字">学 校 先 生 語 本 文 字</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-08-ecole-et-savoir/comprendre.html">Comprendre<span class="vh"> — Unité 8, École et savoir</span></a></li><li><a class="act act-quiz" href="activites/unite-08-ecole-et-savoir/s-entrainer.html">S&#x27;entraîner<span class="vh"> — Unité 8, École et savoir</span></a></li></ul></div></article></li><li class="unite" style="--c:#928C36"><article aria-labelledby="u9"><img class="motif" src="assets/motifs/unite-9.png" alt="" width="640" height="96"><div class="corps"><p class="num">Unité 9</p><h3 id="u9">Société et lieux</h3><p class="kanji" lang="ja" aria-label="Kanji de l'unité : 車 電 駅 国 社 店 道 門 名 何">車 電 駅 国 社 店 道 門 名 何</p><ul class="acts"><li><a class="act act-livre" href="activites/unite-09-societe-et-lieux/comprendre.html">Comprendre<span class="vh"> — Unité 9, Société et lieux</span></a></li><li><a class="act act-quiz" href="activites/unite-09-societe-et-lieux/s-entrainer.html">S&#x27;entraîner<span class="vh"> — Unité 9, Société et lieux</span></a></li><li><a class="act act-mission" href="activites/unite-09-societe-et-lieux/mission-de-la-gare-au-restaurant.html">Mission : De la gare au restaurant<span class="vh"> — Unité 9, Société et lieux</span></a></li></ul></div></article></li></ul>
+<h2 id="evaluation">Évaluation finale</h2>
+<p>Une journée au Japon, de l'hôtel au dîner chez ゆき : des scènes qui réunissent les kanji des 9 unités.</p>
+<ul class="eval">
+<li><a class="act" href="activites/evaluation-finale/evaluation.html">Faire l'évaluation</a></li>
+<li><a class="act" href="activites/evaluation-finale/correction.html">Lire la correction</a></li>
+</ul>
+<p class="note">Ouvre la correction seulement après avoir terminé l'évaluation.</p>
+<h2 id="choix">Choix pédagogiques</h2>
+<ul><li><strong>Cognitivisme et enseignement explicite</strong> : double codage forme, sens et son, clés des kanji, exemples résolus, rappel actif, révisions espacées.</li><li><strong>Béhaviorisme</strong> : quiz avec retour immédiat et seuil de maîtrise à 80 %.</li><li><strong>Perspective actionnelle</strong> : documents réels, missions et évaluation en situation : l&#x27;apprenant lit pour agir.</li></ul>
+<h2 id="credits">Crédits</h2>
+<ul><li><strong>Voix de synthèse</strong> : VOICEVOX:玄野武宏</li><li><strong>Polices</strong> : Klee One (Fontworks) et Zen Kaku Gothic New, sous licence SIL Open Font License 1.1</li><li><strong>Activités</strong> : créées avec Lumi (logiciel libre, licence AGPL) et le format H5P (bibliothèques sous licence MIT)</li><li><strong>Textes, images et documents</strong> : créés pour le module, avec l&#x27;aide d&#x27;une IA générative</li></ul>
+</main>
+<footer><div class="wrap"><p>Lire les kanji du JLPT N5 · module de formation à distance, 2026.</p></div></footer>
+</body>
+</html>
